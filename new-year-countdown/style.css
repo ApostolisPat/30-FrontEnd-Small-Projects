@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    font-family: cursive;
+    background-color: slateblue;
+    overflow: hidden;
+}
+
+h2{
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.year{
+    font-size: 5em; /* 1 Em is the current font size */
+    color: white;
+    font-weight: bold;
+}
+
+.countdown{
+    margin: 30px; /* To push it down */
+    background-color: rgba(0,0,0,0.1);
+    width: 100%; /* To stretch the width of its parent(the page */
+    color: white;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.countdown div{
+    margin: 0 15px; /* To separate the timers */
+    font-size: 2.5em;
+    font-weight: 500;
+    margin-top: -25px; /* To bring the timers a bit up in the countdown container */
+    position: relative; /* So we can move the days,hours,minutes,seconds texts down */
+    text-align: center;
+    width: 100px;
+    text-shadow: 4px 4px 1px rgba(255, 255, 255, 0.2);
+
+}
+
+.countdown div::before{ /* Add extra content before the div */
+    content: "";
+    position: absolute; 
+    bottom: -30px;
+    left: 0;
+    font-size: .35em;
+    line-height: 35px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 500;
+    width: 100%;
+    height: 35px;
+    text-shadow: none;
+}
+
+.countdown #day::before{
+    content: "Days";
+}
+.countdown #hour::before{
+    content: "Hours";
+}
+.countdown #minutes::before{
+    content: "Minutes";
+}
+.countdown #seconds::before{
+    content: "Seconds";
+}

@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@400;700&display=swap');
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    /* center horizontally */
+    height: 100vh;
+    /* Changes body height */
+    align-items: center;
+    /* Aligns div item in the center */
+    background-color: salmon;
+    /* Christmas Font! */
+    font-family: "Mountains of Christmas", serif;
+}

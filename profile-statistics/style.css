@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    text-align: center;
+    background-color: yellow;
+    font-family: cursive;
+}
+
+.stats-container{
+    margin: 20px;
+    border: dotted green;
+    min-width: 200px;
+    height: 100px;
+    position: relative;
+    padding: 20px;
+}
+
+.icon{
+    /* Position icon at the top of its stats-container BUT..
+    * ... put position:relative in the stats-container otherwise...
+    * ... the 'absolute' position is at the center of page element*/
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.counter{
+    font-size: 50px;
+    /* Move it inside the container START */
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    /* Move it inside the container END */
+    color: green;
+}
+
+.stats-container h4{
+    position: absolute;
+    bottom: 1px;
+    left: 50%;
+    transform: translateX(-50%);
+    /* No wrapping on text */
+    white-space: nowrap;
+}
+
+/* When the screen is smaller, we want the items to go in a column so we can see them clearly */
+@media (max-width: 600px){
+    body{
+        flex-direction: column;
+    }
+}

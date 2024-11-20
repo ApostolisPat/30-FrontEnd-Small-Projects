@@ -1,0 +1,48 @@
+body{
+    margin:0;
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    font-family: sans-serif;
+}
+
+.btn{
+    background-color: pink;
+    padding: 20px 40px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0,0,0,.3);
+    text-decoration: none; /* Removes line under text */
+    color: black;
+    position: relative;
+    overflow: hidden; /* To hide hover::before pseudoelement going outside the border */
+}
+
+/* To put "Button" text over the btn:hover animation */
+.btn span{
+    position: relative;
+    z-index: 1;
+}
+
+/* Before we click the button */
+.btn::before{
+    content: "";
+    position: absolute;
+    background-color: orangered;
+    width: 0;
+    height: 0;
+    /* left and top properties, will move the box's edge to somewhere */
+    left: var(--xPos);
+    top: var(--yPos);
+    /* To move the box's center to the center: */
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+    transition: width .5s, height 0.5s;
+}
+
+/* Before clicking, when hovering */
+.btn:hover::before{
+    width: 300px;
+    height: 300px;
+}

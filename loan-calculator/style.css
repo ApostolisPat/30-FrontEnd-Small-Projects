@@ -1,0 +1,27 @@
+body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container{
+    background-color: darkcyan;
+    color:aliceblue;
+    padding: 20px; /* Adds space around the text elements to bring them more in the center of the container */
+    border-radius: 10px;
+}
+
+.input{
+    width:100%; /* Make the inputs fill the width of the container */
+    font-size: 20px;
+    height: 30px; /* Make the inputs have bigger height */
+}
+
+.payment{
+    font-weight: 600;
+    font-size: 20px;
+}

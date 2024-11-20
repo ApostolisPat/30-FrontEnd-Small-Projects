@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column; /* Puts all the items in a column at the center of the page */
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h1{
+    font-size: 100px;
+    color: aliceblue;
+    backdrop-filter: brightness(.5);
+    letter-spacing: 4px;
+}
+
+.btn{
+    background-color: black;
+    color: white;
+    padding: 20px 40px;
+    font-size: 25px;
+    border: 4px solid;
+    cursor: pointer;
+    transition: 1s background-color;
+    white-space: nowrap; /* No line-wrap in "Buy Now" */
+}
+
+.btn:hover{
+    background-color: white;
+    color: black;
+}
+
+.split{
+    width: 50%; /* So we can make them eventually cover half the screen */
+    height: 100%;
+    top: 0;
+    overflow: hidden;
+}
+
+.split.left{
+    position: absolute;
+    left: 0;
+    background-color: pink;
+    background-image: url("https://www.apple.com/newsroom/images/2024/09/apple-debuts-iphone-16-pro-and-iphone-16-pro-max/article/Apple-iPhone-16-Pro-hero-geo-240909_inline.jpg.medium.jpg");
+    background-size: cover;
+}
+
+.split.right{
+    position: absolute;
+    right: 0;
+    background-color: lightblue;
+    background-image: url("https://images.samsung.com/is/image/samsung/assets/global/mkt/smartphones/galaxy-s24-ultra/kv/01_S24Ultra-Group-KV_PC.jpg?imbypass=true");
+    background-size: cover;
+}
+
+.active-left .left{
+    width: 75%;
+}
+
+.active-left .right{
+    width: 25%;
+}
+
+.active-right .left{
+    width: 25%;
+}
+
+.active-right .right{
+    width: 75%;
+}
+
+.left, .right{
+    transition: width 2s ease-out;
+}

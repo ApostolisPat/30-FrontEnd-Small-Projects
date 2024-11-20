@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+    height: 100vh;
+    overflow:hidden;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aliceblue;
+}
+
+.search-bar-container{
+    display: flex;
+    align-items: center;
+    background-color: aliceblue;
+    padding: 5px;
+    width: 300px;
+    height: 50px;
+    border-radius: 50px; /* Completely rounded edge */
+    /* box-shadow: horizontal-shadow vertical-shadow blur-radius transparency-and-color*/
+    /* Plus one more white shadow at the top */
+    box-shadow: 6px 6px 10px rgba(0,0,0,.2),
+    -6px -6px 10px rgba(255,255,255,0.7);
+    margin: 10px; /* For smaller screens */
+    position: relative;
+    /* Add transition on width for when clicking on magnifier */
+    /* Will also need to add transition on microphone and input so they don't appear and disappear suddenly */
+    transition: width 1.5s;
+}
+
+.magnifier{
+    width: 25px;
+    cursor: pointer;
+    position: absolute;
+    left: 20px; /* Change the position attribute of the parent first, to move it 20px inside the bar */
+}
+
+.mic-icon{
+    width: 30px;
+    position: absolute; /* Move mic to the right side of the search bar */
+    right: 10px;
+    /* Appear and disappear smoothly when search is clicked */
+    /* But also make it appear and disappear with delay*/
+    transition: width .4s;
+    transition-delay: 1s;
+}
+
+.input{
+    background-color: transparent;
+    border: none;
+    /* margin: top-bottom left-right */
+    margin: 10px 50px;
+    outline: none; /* Removes bad looking border when clicking on search */
+    color: rgb(100,100,100); /* Color on text when writing in search */
+    /* Same transition with microphone icon */
+    width: 100%;
+    transition: width 1s;
+    transition-delay: 0.5s;
+}
+
+/* When active class exists, then: search bar container is 50px */
+.active.search-bar-container{
+    width: 50px;
+}
+/* When active class exists, input is hidden */
+.active .input{
+    width: 0;
+}
+/* When active class exists, mic-icon is hidden */
+.active .mic-icon{
+    width: 0;
+}

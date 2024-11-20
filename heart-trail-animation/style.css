@@ -1,0 +1,42 @@
+body{
+    margin: 0; /*So there's no extar space around the defined element borders*/
+    height: 100vh;
+    background-color: black;
+    overflow: hidden /* To hide the scroll bar */
+}
+
+span{
+    background-image: url("me.png");
+    /*Create span size, because it doesn't have as default*/
+    width:100px;
+    height: 100px;
+    position: absolute;
+    pointer-events: none;
+    background-size: cover;
+    /*Bring to center*/
+    left: 50%;
+    top: 50%;
+    /*To bring exactly to the midle*/
+    transform: translate(-50%, -50%);
+    animation: animate 10s linear;
+}
+
+/*Create disappearing animation*/
+/* Transform: translate to move it */
+/* opacity to make it disappear */
+/* filter: hue-rotate to make it change colors */
+/* To change its speed, change animation property in span */
+@keyframes animate {
+    0%{
+        transform: translate(-50%, -50%);
+        opacity: 1;
+        filter: hue-rotate(0);
+        
+    }
+    100%{
+        transform: translate(-50%, -5000%);
+        opacity: 0;
+        filter: hue-rotate(720deg);
+    }
+    
+}
