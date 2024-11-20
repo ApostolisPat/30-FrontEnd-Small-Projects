@@ -4,98 +4,98 @@ Welcome to the **30 Front End Small Projects** repository! This project contains
 
 ## Table of Contents
 
-1. [Project 1](#project-1)
-2. [Project 2](#project-2)
-3. [Project 3](#project-3)
-4. [Project 4](#project-4)
-5. [Project 5](#project-5)
-6. [Project 6](#project-6)
-7. [Project 7](#project-7)
-8. [Project 8](#project-8)
-9. [Project 9](#project-9)
-10. [Project 10](#project-10)
-11. [Project 11](#project-11)
-12. [Project 12](#project-12)
-13. [Project 13](#project-13)
-14. [Project 14](#project-14)
-15. [Project 15](#project-15)
-16. [Project 16](#project-16)
-17. [Project 17](#project-17)
-18. [Project 18](#project-18)
-19. [Project 19](#project-19)
-20. [Project 20](#project-20)
-21. [Project 21](#project-21)
-22. [Project 22](#project-22)
-23. [Project 23](#project-23)
-24. [Project 24](#project-24)
-25. [Project 25](#project-25)
-26. [Project 26](#project-26)
-27. [Project 27](#project-27)
-28. [Project 28](#project-28)
-29. [Project 29](#project-29)
-30. [Project 30](#project-30)
+1. [Heart Trail Animation](#heart-trail-animation)
+2. [Auto Text Effect Animation](#auto-text-effect-animation)
+3. [Mini Calendar](#mini-calendar)
+4. [Button Ripple Effect](#button-ripple-effect)
+5. [Random Photos](#random-photos)
+6. [Dark Mode Toggle](#dark-mode-toggle)
+7. [Testimonial Slider](#testimonial-slider)
+8. [Realtime Character Counter](#realtime-character-counter)
+9. [Digital Clock](#digital-clock)
+10. [Double Landing Page](#double-landing-page)
+11. [Random Color Generator](#random-color-generator)
+12. [Rotating Image Gallery](#rotating-image-gallery)
+13. [Animated Search Bar](#animated-search-bar)
+14. [Loan Calculator](#loan-calculator)
+15. [New Year Countdown](#new-year-countdown)
+16. [Pomodoro Timer](#pomodoro-timer)
+17. [Age Calculator](#age-calculator)
+18. [Profile Statistics](#profile-statistics)
+19. [Video Trailer Popup](#video-trailer-popup)
+20. [Drum Kit](#drum-kit)
+21. [Analog Clock](#analog-clock)
+22. [Temperature Converter](#temperature-converter)
+23. [BMI Calculator](#bmi-calculator)
+24. [Sticky Navbar](#sticky-navbar)
+25. [Random Emoji](#random-emoji)
+26. [Tip Calculator](#tip-calculator)
+27. [TBD](#tbd-1)
+28. [TBD](#tbd-2)
+29. [TBD](#tbd-3)
+30. [TBD](#tbd-4)
 
 ## Projects
 
-### 1: Heart Trail Animation
+### Heart Trail Animation
 
-### 2: Auto Text Effect Animation
+### Auto Text Effect Animation
 
-### 3: Mini Calendar
+### Mini Calendar
 
-### 4: Button Ripple Effect
+### Button Ripple Effect
 
-### 5: Random Photos
+### Random Photos
 
-### 6: Dark Mode Toggle
+### Dark Mode Toggle
 
-### 7: Testimonial Slider
+### Testimonial Slider
 
-### 8: Realtime Character Counter
+### Realtime Character Counter
 
-### 9: Digital Clock
+### Digital Clock
 
-### 10: Double Landing Page
+### Double Landing Page
 
-### 11: Random Color Generator
+### Random Color Generator
 
-### 12: Rotating Image Gallery
+### Rotating Image Gallery
 
-### 13: Animated Search Bar
+### Animated Search Bar
 
-### 14: Loan Calculator
+### Loan Calculator
 
-### 15: New Year Countdown
+### New Year Countdown
 
-### 16: Pomodoro Timer
+### Pomodoro Timer
 
-### 17: Age Calculator
+### Age Calculator
 
-### 18: Profile Statistics
+### Profile Statistics
 
-### 19: Video Trailer Popup
+### Video Trailer Popup
 
-### 20: Drum Kit
+### Drum Kit
 
-### 21: Analog Clock
+### Analog Clock
 
-### 22: Temperature Converter
+### Temperature Converter
 
-### 23: BMI Calculator
+### BMI Calculator
 
-### 24: Sticky Navbar
+### Sticky Navbar
 
-### 25: Random Emoji
+### Random Emoji
 
-### 26: Tip-Calculator
+### Tip Calculator
 
-### 27: TBD
+### TBD 1
 
-### 28: TBD
+### TBD 2
 
-### 29: TBD
+### TBD 3
 
-### 30: TBD
+### TBD 4
 
 
 <details>
