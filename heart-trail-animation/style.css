@@ -6,7 +6,7 @@ body{
 }
 
 span{
-    background-image: url("me.png");
+    background-image: url("https://cdn4.iconfinder.com/data/icons/general-office/91/General_Office_54-512.png");
     /*Create span size, because it doesn't have as default*/
     width:100px;
     height: 100px;
