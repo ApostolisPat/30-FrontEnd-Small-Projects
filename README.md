@@ -100,6 +100,6 @@ Welcome to the **30 Front End Small Projects** repository! This project contains
 
 <details>
   <summary>TODO</summary>
-    1: Gifs/Image for description on Readme.  
+    1: Gifs/Image for description on Readme.<br>
     2: Update New Year Countdown for every year.
 </details>
