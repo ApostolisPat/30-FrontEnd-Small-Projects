@@ -124,7 +124,7 @@ Welcome to the **30 Front End Small Projects** repository! This project contains
 ### Animated Search Bar
 <details>
   <summary></summary>
-  https://github.com/user-attachments/assets/87d5f267-976c-40bd-bf54-a2649963fcf7 
+  https://github.com/user-attachments/assets/f5ff5658-1683-4295-8eee-5e21e0278246
 </details>
 <hr>
 
