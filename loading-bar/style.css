@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background-color: black;
+    color: lightgray;
+}
+
+.container{
+    text-align: center;
+    width: 400px;
+    position: relative;
+}
+
+.counter{
+    font-size: 3em;
+}
+
+/* Loading bar is made up of two bars. Front bar increases its width until 100% of back-bar is reached. */
+.loading-bar-back{
+    position: absolute; /* Change position:relative to its parent(.container) also, or the positioning will be relative to the body*/
+    height: 8px;
+    width: 100%;
+    background-color: lightgrey;
+    border-radius: 5px;
+    border: none;
+}
+
+.loading-bar-front{
+    position: absolute; /* Change position:relative to its parent(.container) also, or the positioning will be relative to the body*/
+    height: 8px;
+    width: 0%;
+    background-color: orangered;
+    border-radius: 5px;
+    border: none;
+}
