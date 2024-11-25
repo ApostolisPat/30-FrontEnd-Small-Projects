@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background-color: darkblue;
+    color: white;
+    font-family: cursive;
+}
+
+.container{
+    /* mouse-events will get smaller as screen gets smaller */
+    display: flex;
+    text-align: center;
+}
+
+/* When the screen gets smaller than 500px, the mouse-events will go on top of each other */
+@media (max-width: 500px){
+    .container{
+        flex-direction: column;
+    }
+}
+
+.mouse-event{
+    border: solid 1px lightgray;
+    /* Move elements away from one another */
+    margin: 40px; /* Adds space around the elements */
+    min-width: 180px;/* The least size mouse-event can have is 180px (Gets hidden as the screen gets smalelr than 180px) */
+    min-height: 100px;
+    position: relative;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 3em;
+}
+
+.mouse-event h4{
+    position: absolute; /* Don't forget to make it absolute but relative to its parent, not the body */
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 0.3em;
+    white-space: nowrap;
+    font-weight: 100;
+    color: lightgray;
+}
+
