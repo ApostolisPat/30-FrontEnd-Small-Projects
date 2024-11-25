@@ -179,6 +179,7 @@ Welcome to the **30 Front End Small Projects** repository! This project contains
 <hr>
 
 ### Analog Clock
+<hr>
 
 ### Temperature Converter
 <details>
