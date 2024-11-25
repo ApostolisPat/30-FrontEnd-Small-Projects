@@ -30,10 +30,10 @@ Welcome to the **30 Front End Small Projects** repository! This project contains
 24. [Sticky Navbar](#sticky-navbar)
 25. [Random Emoji](#random-emoji)
 26. [Tip Calculator](#tip-calculator)
-27. [TBD](#tbd-1)
-28. [TBD](#tbd-2)
-29. [TBD](#tbd-3)
-30. [TBD](#tbd-4)
+27. [Loading Bar](#loading-bar)
+28. [Background Image Scroll Effect](#background-image-scroll-effect)
+29. [Mouse Event](#mouse-event)
+30. [Dice Roll Simulator](#dice-roll-simulator)
 
 ## Projects
 
@@ -89,13 +89,13 @@ Welcome to the **30 Front End Small Projects** repository! This project contains
 
 ### Tip Calculator
 
-### TBD 1
+### Loading Bar
 
-### TBD 2
+### Background Image Scroll Effect
 
-### TBD 3
+### Mouse Event
 
-### TBD 4
+### Dice Roll Simulator
 
 
 <details>
