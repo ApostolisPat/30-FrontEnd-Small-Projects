@@ -1,9 +1,8 @@
 const containerElement = document.querySelector(".container"); //Selector for the class
 
-const careers = ["Software Developer",
-                "Gamer",
-                "Truck Driver",
-                "Best Boyfriend"];
+const careers = ["Back-end Developer",
+                "Front-end Developer",
+                "Full-Stack Developer"];
 
 let careerIndex = 0;
 

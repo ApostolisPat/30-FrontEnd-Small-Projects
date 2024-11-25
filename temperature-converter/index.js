@@ -1,28 +1,24 @@
+const celsiusEl = document.getElementById("celsius");
+const fahrenheitEl = document.getElementById("fahrenheit");
+const kelvinEl = document.getElementById("kelvin");
 
-const containerElement = document.querySelector(".container");
+function computeTemp(event) {
+    const currentValue = +event.target.value;
 
-for (let index = 0; index < 30; index++) {
-    const colourContainerElement = document.createElement("div");
-    colourContainerElement.classList.add("colour-container");
-    containerElement.appendChild(colourContainerElement);
-    let colour = randomColour();
-    colour = "#" + colour;
-    colourContainerElement.innerText = colour;
-    colourContainerElement.style.backgroundColor = colour;
-}
-
-
-function randomColour(){
-    const chars = "0123456789abcdef";
-    const colourCodeLength = 6;
-    let colour = "";
-
-    for (let index = 0; index < colourCodeLength; index++) {
-        const randomNum = Math.floor(Math.random() * chars.length);
-        
-        colour += chars.substring(randomNum, randomNum+1);
-        
+    switch (event.target.name) {
+        case "celsius":
+            kelvinEl.value = (currentValue + 273.32).toFixed(2);
+            fahrenheitEl.value = (currentValue * 1.8 + 32).toFixed(2);
+            break;
+        case "fahrenheit":
+            celsiusEl.value = ((currentValue - 32) / 1.8).toFixed(2);
+            kelvinEl.value = ((currentValue - 32) / 1.8 + 273.32).toFixed(2);
+            break;
+        case "kelvin":
+            celsiusEl.value = (currentValue - 273.32).toFixed(2);
+            fahrenheitEl.value = ((currentValue - 273.32) * 1.8 + 32).toFixed(2);
+            break;
+        default:
+            break;
     }
-    return colour;
-
 }
